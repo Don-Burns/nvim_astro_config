@@ -1,9 +1,32 @@
 This is a repo for my personal configuration of [astrovim](https://astronvim.com/)
 
-# Installing / Cloning to New Machine
+# 🛠️ Installation / Cloning to New Machine
 
-`git clone git@github.com:Don-Burns/nvim_astro_config.git ~/.config/nvim/lua/user`
+## Make a backup of your current nvim and shared folder
+
+```shell
+mv ~/.config/nvim ~/.config/nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+```
+
+## Clone AstroNvim
+
+```shell
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+```
 This will clone the repo into the nvim config directory ready for use. Nvim may need to be restarted after cloning.
+
+## Clone the repository
+
+```shell
+git clone git@github.com:Don-Burns/nvim_astro_config.git ~/.config/nvim/lua/user`
+```
+
+## Start Neovim
+
+```shell
+nvim
+```
 
 # Other Dependencies
 
@@ -67,7 +90,8 @@ from here `<ctrl> k` can be used to swap back and forth from the terminal to the
 
 
 
-# References
+# 📖 References
 
+- [Astro Docs](https://astronvim.com/)
 - [Great YouTube walkthrough of how to configure astrovim](https://www.youtube.com/watch?v=GEHPiZ10gOk)
 - [LazyGit Tutorial](https://www.youtube.com/watch?v=CPLdltN7wgE)
