@@ -14,7 +14,9 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 ```shell
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
-This will clone the repo into the nvim config directory ready for use. Nvim may need to be restarted after cloning.
+
+This will clone the repo into the nvim config directory ready for use.
+Nvim may need to be restarted after cloning.
 
 ## Clone the repository
 
@@ -30,7 +32,8 @@ nvim
 
 # Other Dependencies
 
-As much as possible I try to have everything required for the config installed automatically with the package manager, but there are exceptions
+As much as possible I try to have everything required for the config installed
+automatically with the package manager, but there are exceptions
 
 ## [LazyGit](https://github.com/jesseduffield/lazygit)
 
@@ -44,8 +47,9 @@ Is what power the grep search with telescope
 
 For some "non-standard" symbols a Nerd Font is required.
 e.g. [CaskaydiaCove](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.zip)
-Ligatures may need to be disbled depending on the terminal being used.
-e.g. for windows terminal in the settings.json: 
+Ligatures may need to be disabled depending on the terminal being used.
+e.g. for windows terminal in the settings.json:
+
 ```JSON
     ...
     "profiles": {
@@ -60,6 +64,12 @@ e.g. for windows terminal in the settings.json:
         },
     ...
 ```
+
+## Programming Language Package Managers / Runtimes
+
+Some features will need different runtimes to work correctly.
+e.g. cspell needs node and npm to run/install
+current list: `cargo, pip, python, node, npm`
 
 # Adding LSPs and Language Syntax Highlighting
 
@@ -87,8 +97,6 @@ Open a terminal (powered by [ToggleTerm](https://github.com/akinsho/toggleterm.n
 e.g. `<leader> t h` for a horizontal split
 
 from here `<ctrl> k` can be used to swap back and forth from the terminal to the last buffer.
-
-
 
 # 📖 References
 
